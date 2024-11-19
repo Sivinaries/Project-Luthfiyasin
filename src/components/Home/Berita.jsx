@@ -32,12 +32,30 @@ import berita31 from '../../assets/images/berita31.jpg';
 import berita32 from '../../assets/images/berita32.jpg';
 import berita33 from '../../assets/images/berita33.jpg';
 import berita34 from '../../assets/images/berita34.jpg';
+import berita35 from '../../assets/images/berita35.jpg';
+import berita36 from '../../assets/images/berita36.jpg';
+import berita37 from '../../assets/images/berita37.jpg';
 import { Link } from 'react-router-dom';
 import { MdArrowOutward } from "react-icons/md";
 import Kampanye from './Kampanye';
 import { motion } from "framer-motion";
 
 const news = [
+  {
+    title: 'Kaesang Ajak Generasi Zilenial Coblos Yang Baju Biru',
+    img: berita37,
+    link: 'https://inilahjateng.com/kaesang-ajak-generasi-zilenial-coblos-yang-baju-biru/'
+  },
+  {
+    title: 'Rumah Perlindungan Tiap Kecamatan, Solusi Luthfi-Yasin Tekan Angka Kekerasan Anak dan Ibu di Jateng',
+    img: berita36,
+    link: 'https://bahterajateng.com/rumah-perlindungan-tiap-kecamatan-solusi-luthfi-yasin-tekan-angka-kekerasan-anak-dan-ibu-di-jateng/'
+  },
+  {
+    title: 'Arus Bawah Prabowo dan Jokowi Deklarasi Dukung Luthfi-Yasin',
+    img: berita35,
+    link: 'https://inilahjateng.com/arus-bawah-prabowo-dan-jokowi-deklarasi-dukung-luthfi-yasin/'
+  },
   {
     title: 'Cagub Jateng Ahmad Luthfi : Debat Bukan Sekadar Bicara tapi ‘Scientific Problem Solving’ untuk Jateng',
     img: berita34,

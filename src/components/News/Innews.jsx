@@ -8,6 +8,141 @@ import { motion } from "framer-motion";
 
 const newsData = [
   {
+    date: '15 November 2024',
+    title: 'Gerindra Minta Kader Genjot Kemenangan Luthfi-Yasin di Pilgub Jateng',
+    link: 'https://inilahjateng.com/gerindra-minta-kader-genjot-kemenangan-luthfi-yasin-di-pilgub-jateng/'
+  },
+  {
+    date: '15 November 2024',
+    title: 'Kaesang Ajak Generasi Zilenial Coblos Yang Baju Biru',
+    link: 'https://inilahjateng.com/kaesang-ajak-generasi-zilenial-coblos-yang-baju-biru/'
+  },
+  {
+    date: '15 November 2024',
+    title: 'Kaesang Perkenalkan Kartu Zilenial, Program Istimewa Luthfi-Yasin',
+    link: 'https://inilahjateng.com/kaesang-perkenalkan-kartu-zilenial-program-istimewa-luthfi-yasin/#google_vignette'
+  },
+  {
+    date: '15 November 2024',
+    title: 'Kaesang Perkenalkan Kartu Zilenial, Program Istimewa Luthfi-Yasin untuk Anak Muda Jateng',
+    link: 'https://www.suarapembaruan.news/nasional/53696139/kaesang-perkenalkan-kartu-zilenial-program-istimewa-luthfi-yasin-untuk-anak-muda-jateng'
+  },
+  {
+    date: '15 November 2024',
+    title: 'Tindak Lanjut Debat ke-2, Ahmad Luthfi Realisasikan Jamban Gratis untuk Warga',
+    link: 'https://www.suarapembaruan.news/politik/53696144/tindak-lanjut-debat-ke-2-ahmad-luthfi-realisasikan-jamban-gratis-untuk-warga'
+  },
+  {
+    date: '14 November 2024',
+    title: 'Tokoh Lintas Agama Dukung Luthfi-Yasin, Tingkatkan Toleransi di Jateng',
+    link: 'https://solo.suaramerdeka.com/jawa-tengah/0513946624/tokoh-lintas-agama-dukung-luthfi-yasin-tingkatkan-toleransi-di-jateng'
+  },
+  {
+    date: '14 November 2024',
+    title: 'Gen Z Unggul Teknologi, Cagub Ahmad Luthfi Ajak Melek Politik',
+    link: 'https://inilahjateng.com/gen-z-unggul-teknologi-cagub-ahmad-luthfi-ajak-melek-politik/'
+  },
+  {
+    date: '14 November 2024',
+    title: '3.000 Lebih Gen Z dan Millenial Siap Menangkan Luthfi-Yasin',
+    link: 'https://inilahjateng.com/3-000-lebih-gen-z-dan-millenial-siap-menangkan-luthfi-yasin/#google_vignette'
+  },
+  {
+    date: '13 November 2024',
+    title: 'Rumah Perlindungan Tiap Kecamatan, Solusi Luthfi-Yasin Tekan Angka Kekerasan Anak dan Ibu di Jateng',
+    link: 'https://bahterajateng.com/rumah-perlindungan-tiap-kecamatan-solusi-luthfi-yasin-tekan-angka-kekerasan-anak-dan-ibu-di-jateng/'
+  },
+  {
+    date: '12 November 2024',
+    title: 'Bangga Produk Lokal, Cagub Ahmad Luthfi Beli Kursi Roda Elektrik untuk Putranya',
+    link: 'https://inilahjateng.com/bangga-produk-lokal-cagub-ahmad-luthfi-beli-kursi-roda-elektrik-untuk-putranya/'
+  },
+  {
+    date: '12 November 2024',
+    title: 'Gus Yusuf Sebut Jokowi akan Turun di Tegal Dukung Luthfi-Yasin',
+    link: 'https://sleman.inews.id/read/518626/gus-yusuf-sebut-jokowi-akan-turun-di-tegal-dukung-luthfi-yasin?utm_medium=sosmed&utm_source=whatsapp'
+  },
+  {
+    date: '12 November 2024',
+    title: 'Joss! Tiga Ponpes Besar Mranggen Demak Siap Menangkan Luthfi-Yasin',
+    link: 'https://bahterajateng.com/joss-tiga-ponpes-besar-mranggen-demak-siap-menangkan-luthfi-yasin/'
+  },
+  {
+    date: '11 November 2024',
+    title: 'Cagub Ahmad Luthfi Usulkan Subsidi Pangan Murah dan Fasilitas Kesehatan Gratis Atasi Kemiskinan Jateng',
+    link: 'https://joglosemarnews.com/2024/11/cagub-ahmad-luthfi-usulkan-subsidi-pangan-murah-dan-fasilitas-kesehatan-gratis-atasi-kemiskinan-jateng/'
+  },
+  {
+    date: '11 November 2024',
+    title: 'Luthfi Serukan Falsafah Ibu Bumi dan Gus Yasin Tutup Debat dengan Lagu lir-Ilir',
+    link: 'https://solo.suaramerdeka.com/jawa-tengah/0513920381/luthfi-serukan-falsafah-ibu-bumi-dan-gus-yasin-tutup-debat-dengan-lagu-lir-ilir'
+  },
+  {
+    date: '11 November 2024',
+    title: 'Luthfi Serukan Falsafah Ibu Bumi dan Gus Yasin Tutup Debat dengan Lagu lir-Ilir',
+    link: 'https://solo.suaramerdeka.com/jawa-tengah/0513920381/luthfi-serukan-falsafah-ibu-bumi-dan-gus-yasin-tutup-debat-dengan-lagu-lir-ilir'
+  },
+  {
+    date: '10 November 2024',
+    title: 'Ahmad Luthi dan Taj Yasin Pamer Batik dan Sepatu Buatan UMKM saat Debat Kedua Pilkada Jawa Tengah',
+    link: 'https://www.suara.com/kotaksuara/2024/11/10/222207/ahmad-luthi-dan-taj-yasin-pamer-batik-dan-sepatu-buatan-umkm-saat-debat-kedua-pilkada-jawa-tengah?utm_source=whatsapp&utm_medium=share'
+  },
+  {
+    date: '10 November 2024',
+    title: 'UMKM Binaan Muslimat Karanganyar: Gus Yasin Diharapkan Memimpin Jawa Tengah',
+    link: 'https://solo.kilat.com/politik/103013917397/umkm-binaan-muslimat-karanganyar-gus-yasin-diharapkan-memimpin-jawa-tengah'
+  },
+  {
+    date: '10 November 2024',
+    title: 'Kunjungi Pendeta Obaja di Solo, Luthfi-Yasin Diharapkan jadi Memimpin Jateng',
+    link: 'https://bahterajateng.com/kunjungi-pendeta-obaja-di-solo-luthfi-yasin-diharapkan-jadi-memimpin-jateng/'
+  },
+  {
+    date: '10 November 2024',
+    title: 'Gus Yasin Hadiri Pengajian Muslimat NU Karanganyar',
+    link: 'https://solo.suaramerdeka.com/solo-raya/0513915406/gus-yasin-hadiri-pengajian-muslimat-nu-karanganyar'
+  },
+  {
+    date: '9 November 2024',
+    title: 'Arus Bawah Prabowo dan Jokowi Deklarasi Dukung Luthfi-Yasin',
+    link: 'https://inilahjateng.com/arus-bawah-prabowo-dan-jokowi-deklarasi-dukung-luthfi-yasin/'
+  },
+  {
+    date: '9 November 2024',
+    title: 'Bawaslu Jateng, Terdapat 35 Laporan Siber Mengandung Ujaran Kebencian Saling Serang ',
+    link: 'https://www.kabarno.com/bawaslu-jateng-terdapat-35-laporan-siber-mengandung-ujaran-kebencian-saling-serang/?amp=1'
+  },
+  {
+    date: '9 November 2024',
+    title: 'Pesan Presiden Prabowo Jelang Debat Kedua Pilkada Jateng: Hanya Luthfi-Yasin yang Mampu Bikin Jawa Tengah Maju',
+    link: 'https://bahterajateng.com/pesan-presiden-prabowo-jelang-debat-kedua-pilkada-jateng-hanya-luthfi-yasin-yang-mampu-bikin-jawa-tengah-maju/'
+  },
+  {
+    date: '9 November 2024',
+    title: 'Hadiri Pengajian Akbar Muslimat NU Karanganyar, Gus Yasin Minta Doa dan Dukungan',
+    link: 'https://bahterajateng.com/hadiri-pengajian-akbar-muslimat-nu-karanganyar-gus-yasin-minta-doa-dan-dukungan/'
+  },
+  {
+    date: '7 November 2024',
+    title: 'Ahmad Luthfi Diserang Fitnah Bertubi-Tubi, KH Mahfud Hamid Serukan Hal Ini di Pilgub Jateng 2024',
+    link: 'https://solo.kilat.com/politik/103013899587/ahmad-luthfi-diserang-fitnah-bertubi-tubi-kh-mahfud-hamid-serukan-hal-ini-di-pilgub-jateng-2024'
+  },
+  {
+    date: '7 November 2024',
+    title: 'Ahmad Luthfi Diserang Fitnah Bertubi-Tubi, KH Mahfud Hamid Serukan Hal Ini di Pilgub Jateng 2024',
+    link: 'https://solo.kilat.com/politik/103013899587/ahmad-luthfi-diserang-fitnah-bertubi-tubi-kh-mahfud-hamid-serukan-hal-ini-di-pilgub-jateng-2024'
+  },
+  {
+    date: '7 November 2024',
+    title: 'Komunitas Vespa Jepara Siap Menangkan Luthfi-Yasin',
+    link: 'https://inilahjateng.com/komunitas-vespa-jepara-siap-menangkan-luthfi-yasin/'
+  },
+  {
+    date: '7 November 2024',
+    title: 'Persatuan Sekolah Swasta se Jawa Tengah Siap Menangkan Luthfi-Yasin',
+    link: 'https://www.kabarno.com/persatuan-sekolah-swasta-se-jawa-tengah-siap-menangkan-luthfi-yasin/?amp=1'
+  },
+  {
     date: '6 November 2024',
     title: 'KH. Abdul Mu’thi: Pilih Pemimpin yang Luwes dan Dekat dengan Umat',
     link: 'https://bahterajateng.com/kh-abdul-muthi-pilih-pemimpin-yang-luwes-dan-dekat-dengan-umat/'
