@@ -35,12 +35,24 @@ import berita34 from '../../assets/images/berita34.jpg';
 import berita35 from '../../assets/images/berita35.jpg';
 import berita36 from '../../assets/images/berita36.jpg';
 import berita37 from '../../assets/images/berita37.jpg';
+import berita38 from '../../assets/images/berita38.jpg';
+import berita39 from '../../assets/images/berita39.jpg';
 import { Link } from 'react-router-dom';
 import { MdArrowOutward } from "react-icons/md";
 import Kampanye from './Kampanye';
 import { motion } from "framer-motion";
 
 const news = [
+  {
+    title: 'Sejumlah Artis Dukung Luthfi-Yasin di Pilgub Jateng. Ternyata Ini Alasannya',
+    img: berita39,
+    link: 'https://bahterajateng.com/sejumlah-artis-dukung-luthfi-yasin-di-pilgub-jateng-ternyata-ini-alasannya/#google_vignette'
+  },
+  {
+    title: 'Puluhan Ribu Warga Purwokerto Sambut Jokowi Bersama Luthfi-Yasin, Pawai Sepanjang 3 Kilometer',
+    img: berita38,
+    link: 'https://solo.kilat.com/politik/103013959265/puluhan-ribu-warga-purwokerto-sambut-jokowi-bersama-luthfi-yasin-pawai-sepanjang-3-kilometer'
+  },
   {
     title: 'Kaesang Ajak Generasi Zilenial Coblos Yang Baju Biru',
     img: berita37,

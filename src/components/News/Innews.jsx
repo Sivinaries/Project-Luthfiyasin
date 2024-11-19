@@ -8,6 +8,31 @@ import { motion } from "framer-motion";
 
 const newsData = [
   {
+    date: '17 November 2024',
+    title: 'Sejumlah Artis Dukung Luthfi-Yasin di Pilgub Jateng. Ternyata Ini Alasannya',
+    link: 'https://bahterajateng.com/sejumlah-artis-dukung-luthfi-yasin-di-pilgub-jateng-ternyata-ini-alasannya/#google_vignette'
+  },
+  {
+    date: '17 November 2024',
+    title: 'Kampanye Akbar Luthfi-Yasin di Solo, Ada Kirab Berkuda Hingga Artis',
+    link: 'https://inilahjateng.com/kampanye-akbar-luthfi-yasin-di-solo-ada-kirab-berkuda-hingga-artis/'
+  },
+  {
+    date: '17 November 2024',
+    title: 'Nyoto Bareng Raffi, Luthfi-Yasin, Jokowi bilang begini: “Nggak Usah Sombong”',
+    link: 'https://interestnews.or.id/2024/11/nyoto-bareng-raffi-luthfi-yasin-jokowi-bilang-begini-nggak-usah-sombong/'
+  },
+  {
+    date: '16 November 2024',
+    title: 'Puluhan Ribu Warga Purwokerto Sambut Jokowi Bersama Luthfi-Yasin, Pawai Sepanjang 3 Kilometer',
+    link: 'https://solo.kilat.com/politik/103013959265/puluhan-ribu-warga-purwokerto-sambut-jokowi-bersama-luthfi-yasin-pawai-sepanjang-3-kilometer'
+  },
+  {
+    date: '16 November 2024',
+    title: 'HUT ke-60 Partai Golkar, Ahmad Luthfi-Gus Yasin Doakan Lebih Kuat dan Sehat',
+    link: 'https://inilahjateng.com/hut-ke-60-partai-golkar-ahmad-luthfi-gus-yasin-doakan-lebih-kuat-dan-sehat/'
+  },
+  {
     date: '15 November 2024',
     title: 'Gerindra Minta Kader Genjot Kemenangan Luthfi-Yasin di Pilgub Jateng',
     link: 'https://inilahjateng.com/gerindra-minta-kader-genjot-kemenangan-luthfi-yasin-di-pilgub-jateng/'
