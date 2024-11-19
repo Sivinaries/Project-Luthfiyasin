@@ -9,8 +9,18 @@ import { motion } from "framer-motion";
 const newsData = [
   {
     date: '17 November 2024',
+    title: 'Jokowi Makan Soto Bareng Raffi Ahmad dan Luthfi-Yasin, Berpesan: Nggak Usah Sombong',
+    link: 'https://solo.kilat.com/politik/103013963962/jokowi-makan-soto-bareng-raffi-ahmad-dan-luthfi-yasin-berpesan-nggak-usah-sombong'
+  },
+  {
+    date: '17 November 2024',
     title: 'Sejumlah Artis Dukung Luthfi-Yasin di Pilgub Jateng. Ternyata Ini Alasannya',
-    link: 'https://bahterajateng.com/sejumlah-artis-dukung-luthfi-yasin-di-pilgub-jateng-ternyata-ini-alasannya/#google_vignette'
+    link: 'https://bahterajateng.com/sejumlah-artis-dukung-luthfi-yasin-di-pilgub-jateng-ternyata-ini-alasannya/'
+  },
+  {
+    date: '17 November 2024',
+    title: 'Sejumlah Artis Dukung Luthfi-Yasin di Pilgub Jateng. Ternyata Ini Alasannya',
+    link: 'https://bahterajateng.com/sejumlah-artis-dukung-luthfi-yasin-di-pilgub-jateng-ternyata-ini-alasannya/'
   },
   {
     date: '17 November 2024',
